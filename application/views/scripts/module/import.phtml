@@ -1,0 +1,32 @@
+<div id = 'import-module'>
+<h1> Director Import Tool</h1>
+<h3> Select Endpoint</h3>
+
+<div id = 'endpoint-select'>
+<select name="endpoint" id="endpoint">
+	<option value="user">Contacts</option>
+	<option value="userGroup">Contact Groups</option>
+	<option value="host">Hosts</option>
+	<option value="hostgroup">Host Groups</option>
+</select>
+</div>
+<div id = 'text-entry'>
+<textarea id="input_json">Enter JSON</textarea> 
+</div>
+<div id ='submit-button'>
+<input type="button" id="submit" value="Submit">
+</div>
+</div>
+<script>
+if (document.readyState === "complete") {
+
+   importManager(); 
+
+} else {
+    window.onload = function () {
+
+	    importManager();
+
+    }
+}
+</script>
