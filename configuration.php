@@ -1,7 +1,7 @@
 <?php
 $section = $this->menuSection(
     N_('Director Import Tool')
-)->setUrl('import_plugin/module/import')->setIcon('wrench'
+)->setUrl('director_icinga2-director-import-plugin/module/import')->setIcon('wrench'
 )->setRenderer(array(
     'SummaryNavigationItemRenderer',
     'state' => 'critical'
