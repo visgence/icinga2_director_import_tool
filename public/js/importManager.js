@@ -24,6 +24,9 @@ function importConfigs(json, index) {
     var endpoint = $('#endpoint').val();
 
     var url = "/icingaweb2/director/" + endpoint;
+    
+    console.log(`Posting data: ${JSON.stringify(json[index])}`);
+    console.log(`to url ${url}`);
 
     $.ajax({
         url: url,
