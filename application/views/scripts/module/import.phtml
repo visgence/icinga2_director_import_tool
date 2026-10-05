@@ -3,20 +3,26 @@
 <h3> Select Endpoint</h3>
 
 <div id = 'endpoint-select'>
-<select name="endpoint" id="endpoint">
-	<option value="user">Contacts</option>
-	<option value="userGroup">Contact Groups</option>
-	<option value="host">Hosts</option>
-	<option value="hostgroup">Host Groups</option>
-	<option value="hosts/templates">Host Templates</option>
-	<option value="command">Commands</option>
+<select name="endpoint" id="endpoint" style="color:black;background-color:white;">
+	<option value="user" style="color:black;background-color:white;">Contacts</option>
+	<option value="userGroup" style="color:black;background-color:white;">Contact Groups</option>
+	<option value="user/template" style="color:black;background-color:white;">Contact Templates</option>
+	<option value="host" style="color:black;background-color:white;">Hosts</option>
+	<option value="hostgroup" style="color:black;background-color:white;">Host Groups</option>
+	<option value="host/template" style="color:black;background-color:white;">Host Templates</option>
+	<option value="command" style="color:black;background-color:white;">Commands</option>
+	<option value="service" style="color:black;background-color:white;">Services</option>
+	<option value="servicegroup" style="color:black;background-color:white;">Service Groups</option>
+	<option value="service/template" style="color:black;background-color:white;">Service Templates</option>
+	<option value="notification/template" style="color:black;background-color:white;">Notification Templates</option>
+	<option value="notification/applyrule" style="color:black;background-color:white;">Notification Templates</option>
 </select>
 </div>
-<div id = 'text-entry'>
-<textarea id="input_json">Enter JSON</textarea> 
+<div id='text-entry'>
+<textarea id="input_json" style="color:black;background-color:white;">Enter JSON</textarea> 
 </div>
 <div id ='submit-button'>
-<input type="button" id="submit" value="Submit">
+<input type="button" id="submit" value="Submit" style="color:black;background-color:white;">
 </div>
 </div>
 <script>
